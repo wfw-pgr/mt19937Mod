@@ -1,12 +1,12 @@
 target  = ../main
 object  = \
-  mt19937Mod.o \
+  mt19937i4Mod.o \
   main.o
 
 
 FC       = gfortran
 
-FFLAGS   = -O3
+FFLAGS   = -O3 -fopenmp
 # FFLAGS  += -fno-range-check
 LDFLAGS  =
 
